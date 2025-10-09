@@ -1,4 +1,5 @@
-class optimalSolution {
+public class Move_Zeroes {
+
     public void moveZeroes(int[] nums) {
         int temp,j;
         for(j=0;j<nums.length;j++){
@@ -15,5 +16,19 @@ class optimalSolution {
             }
         }
         
+    }
+}
+
+class Move_Zeroes_better{
+    public void moveZeroes(int[] nums) {
+        int i=0;
+        for(int j=0;j<nums.length;j++){
+            if(nums[j]!=0){
+                int temp= nums[i];
+                nums[i]= nums[j];
+                nums[j]=temp;
+                i++;
+            }
+        }
     }
 }
