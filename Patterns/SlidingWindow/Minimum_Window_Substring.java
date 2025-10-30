@@ -1,4 +1,4 @@
-class MinimumWindowSubstring {
+public class Minimum_Window_Substring {
     public String minWindow(String s, String t) {
         // edge cases
         if(s== null || t== null ||s.length()==0 || t.length()==0 || s.length()<t.length()){
