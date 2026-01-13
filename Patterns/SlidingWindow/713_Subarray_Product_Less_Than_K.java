@@ -24,8 +24,7 @@ Time Complexity:
 - Brute Force: O(n²)
 - Optimized: O(n)
 
-Space Complexity:
-- O(1)
+Space Complexity: O(1)
 */
 
 public class 713_Subarray_Product_Less_Than_K {
