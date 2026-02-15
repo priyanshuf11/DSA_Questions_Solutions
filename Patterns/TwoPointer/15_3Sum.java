@@ -55,6 +55,9 @@ public class 15_3Sum {
                 }
             }
         }
+        for (int i = 0; i < max; i++) {
+          
+        }
         return new ArrayList<>(result);
     }
 }
